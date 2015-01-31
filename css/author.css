@@ -1,0 +1,187 @@
+body{
+	background-image: url(../img/bg.jpg);
+	background-position: center center;
+	background-repeat: repeat;
+}
+
+#wrapper{
+	min-width: 320px;
+	max-width: 900px;
+	width: 90%;
+	margin-bottom: 15px;
+	border:solid 3px #e68c27;
+	background-color: white;
+	margin: auto;
+	position: relative;
+	margin-top: 50px;
+
+}
+/*nav stuff*/
+	nav{
+		width: 100%;
+		margin: auto;
+		text-align: center;
+		line-height: 55px;
+		font-size: 30px;
+		border-bottom:solid 3px #e68c27;
+		background-color: rgba(0,0,0,.8);
+		text-decoration: none;
+	}
+	nav a{ margin: 5px; text-decoration: none; color: #e68c27;}
+	nav a:hover{ color: #ffa071}
+
+	.pinned{ position: fixed; 
+	 	left: 0px;	top: 0px; right: 0px; 
+	 	/*z-index: 1000;*/
+	 	height: 50px; 
+	 }
+/*nav stuff end*/
+
+/*Head Banner*/
+	#masterhead{
+		background-image: url(../img/logo.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 100px;
+
+		background-color: rgba(0,0,0,.8);	
+	}
+/*header banner end*/
+
+/*Adding individual stuff in this section*/
+	label{
+		margin: auto;
+		padding:5px;
+		color: orange;
+		display: block;
+		text-align: left;
+		font-size: 20px;
+
+	}
+	/*individual sections inside add here*/
+	.form-group{
+		border-bottom:solid #e68c27 2px;
+		height: 70px;
+		margin: auto;
+		padding:10px;
+		text-align: center;
+		background-color: white;
+	}
+	.form-group-in{
+		border-bottom:solid #e68c27 2px;
+		margin: auto;
+		text-align: center;
+		background-color: white;
+		padding: 10px;
+	}
+
+	input{
+		height: 30px;
+		width: 90%;
+	}
+	
+	/*this the sumbmit button*/
+	button.btn{
+	background-color: #e68c27;
+	border-radius: 5px;
+	height: 40px;
+	width: 100%;
+
+	margin-top: 15px;
+	color: white;
+	}
+
+	.form-control-d{
+	margin: auto;
+	display: inline-block;
+	width: 100px;
+
+	}
+/*End Adding individual stuff in this section*/
+
+/*view all*/
+	.whole{
+		min-width: 320px;
+		max-width: 400px;
+		margin: auto;
+		border:solid 3px #e68c27;
+		background-color: white;
+	}
+	h2.title{
+		
+		height: 30px;
+		margin: auto;
+		text-align: left;
+		text-indent: 25px;
+		border-top:solid 3px #e68c27;
+		padding: 5px;
+	}
+	ul{
+		width: 70%;
+		margin: auto;
+		padding: 5px;
+	}
+	li{
+		padding: 4px;
+	}
+	li a{
+		text-decoration: none;
+		color: #e68c27;
+		font-size: 20px;
+	}
+/*view all end*/
+
+/*individual proile stuff*/
+	.profile{
+		background-color: whie;
+		min-width: 320px;
+		margin: auto;
+	}
+	.profile img{
+		width: 90%;
+		height: 90%;
+		margin: auto;
+		padding: 5px;
+		
+		margin-top: 10px;
+	}
+
+	@media screen and (min-width:320px){
+		.profile img{
+				margin-left:12px;
+				
+		}
+	}
+	
+	
+	h1{
+		
+		width: 120px;
+		margin: auto;
+		padding-top: 5px;
+		padding: 5px;
+	}
+	.profile h2{
+	
+		width: 120px;
+		margin: auto;
+		padding-top: 5px;
+		padding: 5px;
+	}
+	h3{
+	
+		width: 120px;
+		margin: auto;
+		padding-top: 5px;
+		padding: 5px;
+	}
+	p{
+		width: 70%;
+		margin: auto;
+		padding: 5px;	
+		margin-bottom: 10px;
+	}
+/*end individual profile stuff*/
+
+footer {text-align: center; background-color: white; height: 55px; }
+	
