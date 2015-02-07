@@ -32,6 +32,14 @@
 				<!-- END -->
 				
 				<!-- OPEN -->
+					<div class="form-group">
+					  <label for="age">Age</label>
+					  <input type="text" class="form-control" id="age" name="nameMe" placeholder="Age">
+					</div>
+				<!-- END -->
+				
+
+				<!-- OPEN -->
 				<div class="form-group">
 					<label for="dropDown">Month</label> 
 						<select class="form-control-d">
@@ -88,12 +96,13 @@
 				</div>
 
 
+
 				<!-- END -->
 			
 				<!-- OPEN -->
 				<div class="form-group-in">
 					  <label for="nameMe">Quick Note</label>
-					  <textarea class="form-control" rows="5"></textarea>
+					  <textarea class="form-control" rows="7"></textarea>
 					</div>
 				<!-- END -->
 				<!-- OPEN -->
