@@ -8,32 +8,35 @@ body{
 	min-width: 320px;
 	max-width: 900px;
 	width: 90%;
+	
 	margin-bottom: 15px;
 	border:solid 3px #e68c27;
 	background-color: white;
 	margin: auto;
 	position: relative;
-	margin-top: 50px;
+	margin-top: 300px;
 
 }
 /*nav stuff*/
-	nav{
+nav{
 		width: 100%;
 		margin: auto;
 		text-align: center;
-		line-height: 55px;
-		font-size: 30px;
+		line-height: 90px;
+		font-size: 70px;
 		border-bottom:solid 3px #e68c27;
 		background-color: rgba(0,0,0,.8);
 		text-decoration: none;
+	
+
 	}
-	nav a{ margin: 5px; text-decoration: none; color: #e68c27;}
+	nav a{ margin: 5px; text-decoration: none; color: #e68c27; display: block;}
 	nav a:hover{ color: #ffa071}
 
 	.pinned{ position: fixed; 
 	 	left: 0px;	top: 0px; right: 0px; 
 	 	/*z-index: 1000;*/
-	 	height: 50px; 
+	 	
 	 }
 /*nav stuff end*/
 
@@ -42,7 +45,7 @@ body{
 		background-image: url(../img/logo.png);
 		background-repeat: no-repeat;
 		background-position: center;
-		height: 100px;
+		height: 200px;
 
 		background-color: rgba(0,0,0,.8);	
 	}
@@ -109,14 +112,14 @@ body{
 	}
 	h2.title{
 		
-		height: 30px;
+		height: 50px;
 		margin: auto;
 		text-align: left;
 		text-indent: 25px;
 		border-top:solid 3px #e68c27;
 		padding: 5px;
 	}
-	ul{
+	#toggle ul{
 		width: 70%;
 		margin: auto;
 		padding: 5px;
@@ -129,11 +132,12 @@ body{
 		color: #e68c27;
 		font-size: 20px;
 	}
+	
 /*view all end*/
 
 /*individual proile stuff*/
 	.profile{
-		background-color: whie;
+		background-color: white;
 		min-width: 320px;
 		margin: auto;
 	}
@@ -160,6 +164,7 @@ body{
 		margin: auto;
 		padding-top: 5px;
 		padding: 5px;
+		font-size: 50px;
 	}
 	.profile h2{
 	
@@ -174,14 +179,18 @@ body{
 		margin: auto;
 		padding-top: 5px;
 		padding: 5px;
+		font-size: 25px;
 	}
 	p{
 		width: 70%;
 		margin: auto;
 		padding: 5px;	
 		margin-bottom: 10px;
+		font-size: 25px;
 	}
 /*end individual profile stuff*/
 
 footer {text-align: center; background-color: white; height: 55px; }
-	
+	/*other stuff*/
+
+

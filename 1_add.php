@@ -1,7 +1,11 @@
+<?php 
+	require('uniV.php');
+	$pageTitle = 'BirthReminder';
+?>
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>BirthReminder</title>
+		<title><?php echo $pageTitle; ?></title>
 		<link rel="stylesheet" type="text/css" href="css/author.css">
 	
 	</head>
@@ -9,32 +13,30 @@
 		<div id="wrapper">
 		<!-- OPEN -->	
 			<header id="masterhead"></header>
-			<?php include ('pinNav.php');?>
+		<?php include ('pinNav.php');?>
 		<!-- END -->		
 			
 		<!-- OPEN -->
-			
-				<h2>New Birth</h2>			
-			<!-- <form class="form-inline"> -->
-			<!-- 	<form method="post" action="02-Post-Results.php"> -->
-				<!-- OPEN -->
-				<div class="form-group">
-					  <label for="dropDown">Add Image</label>
-					  <input type="text" class="form-control" id="dropDown" name="dropDown" placeholder="Add Image">
-					</div>
-				<!-- END -->
-
-				<!-- OPEN -->
-					<div class="form-group">
-					  <label for="nameMe">Name</label>
-					  <input type="text" class="form-control" id="nameMe" name="nameMe" placeholder="Name">
-					</div>
-				<!-- END -->
+			<form class="myForm" method="post" action="4_added.php">
+				<h2 class="titleName">New Birth</h2>
 				
-				<!-- OPEN -->
 				<div class="form-group">
-					<label for="dropDown">Month</label> 
-						<select class="form-control-d">
+				  <label for="nameing">Name</label>
+				  <input type="text" class="form-control" id="naming" name="naming">
+				</div>
+				<div class="form-group">
+				  <label for="ages">Age</label>
+				  <input type="text" class="form-control" id="ages" name="ages">
+				</div>
+				
+				  
+				<div class="form-group">
+				<label for="ages">Date</label>
+				<input type="text" id="datepicker" name="datePicker">
+				</div>
+				<!-- <div class="form-group"> 
+				  <label for="dropDown">Month</label> 
+						<select type="date" class="form-control-d" id="dropDown" name="dropDown" placeholder="dropDownOne">
 							<option>Jan</option>
 							<option>Fed</option>
 							<option>Mar</option>
@@ -48,10 +50,10 @@
 							<option>Nov</option>
 							<option>Dec</option>
 						</select>
-				</div>	
-					<div class="form-group">
-						<label for="dropDown">Date</label>
-						<select class="form-control-d">
+				</div>
+				<div class="form-group">
+				  <label for="dropDown">Date</label>
+				  <select type="date" class="form-control-d" id="dropDown" name="dropDownTwo" placeholder="dropDownTwo">
 							<option>1</option>
 							<option>2</option>
 							<option>3</option>
@@ -85,23 +87,17 @@
 							<option>30</option>
 							<option>31</option>
 					</select>
-				</div>
+				</div> -->
 
-
-				<!-- END -->
-			
-				<!-- OPEN -->
 				<div class="form-group-in">
-					  <label for="nameMe">Quick Note</label>
-					  <textarea class="form-control" rows="5"></textarea>
-					</div>
-				<!-- END -->
-				<!-- OPEN -->
 				<div class="form-group">
-					<button type="submit" class="btn btn-info">Remind Me Please!</button>
-					</div>
-				<!-- END -->
+				  <label for="quickNote">Quick Note</label>
+				  <input type="text"  class="form-control" id="quickNote" name="quickNote" placeholder="quickNote">
+				</div>
+					 <button type="submit" class="btn btn-default">Fun Time </button>
 				</form>
+		<!-- end -->
+		
 			
 		<!-- END -->
 		<footer>&copy;All Rights Reserved</footer>
@@ -109,5 +105,6 @@
 		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/author.js"></script>
+		<script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
 	</body>
 </html>`
