@@ -1,17 +1,17 @@
+
+ function overlay_over() {
+ 	$(this).find('.title').stop(true).animate({'width':'90%'});
+ }
+ function overlay_out() {
+ 	$(this).find('.title').stop(true).animate({'width':'105%'});
+ }
+
+ $('#whole .month').mouseover(overlay_over);
+ $('#whole .month').mouseout(overlay_out);
+
  $(function() {
     $( "#datepicker" ).datepicker();
   });
-
- $( document ).click(function() {
-  $( '#toggle' ).toggle( 'drop' );
-});
- $( document ).click(function() {
-  $( '.one' ).toggle( 'drop' );
-});
-
- $( document ).click(function() {
-  $( '.two' ).toggle( 'drop' );
-});
 
 
  // calandar
